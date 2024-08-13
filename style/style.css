@@ -327,7 +327,77 @@ header{
 
 /* Change your habits style ends */
 
+/* Run an extra section styles starts */
+.run-extra-container{
+    width: 80%;
+    height: 371px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 100px;
+    /* justify-content: space-between; */
+}
 
+.run-extra-text{
+    width: 40%;
+    margin: 2rem 10rem 2rem 2.5rem;
+}
+
+.run-extra-text {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.run-extra-text h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.run-extra-text p {
+    width: 413px; /*--------------------EXTRA----------------------------*/
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run-extra-btn {
+    width: 224px;
+    height: 54px;
+    border: none;
+    border-radius: 2.5rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+/* .run-extra-img{
+    width: 50%;
+    margin: 2rem 2rem;
+    border-radius: 18px;
+} */
+
+.run-extra-img {
+    width: 420px;
+    height: 330px;
+    border-radius: 18px;
+    background-image: url('../images/run.jpg');
+    background-repeat: no-repeat ;
+    background-position: 66% 33.5%;
+    /* background-size: cover; */
+}
+
+/* Run an extra section styles ends */
 
 
 /* ------------Responsive--------------- */
@@ -564,6 +634,77 @@ header{
 }
 
 /* Change your habits style ends */
+
+
+/* Run an extra section styles starts */
+.run-extra-container{
+    max-width: 80%;
+    height: 531px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 100px;
+}
+
+.run-extra-text{
+    width: 40%;
+    margin: 2rem 10rem 2rem 2.5rem;
+}
+
+.run-extra-text {
+    margin-bottom: 2.5rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.run-extra-text h2 {
+    width: 287px;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.run-extra-text p {
+    width: 370px; 
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run-extra-btn {
+    width: 370px;
+    height: 54px;
+    border: none;
+    border-radius: 2.5rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.run-extra-img{
+    margin-left: 1.2rem;
+    border-radius: 18px;
+}
+
+.run-extra-img {
+    width: 370px;
+    height: 190px;
+    border-radius: 18px;
+    background-image: url('../images/run.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+/* Run an extra section styles ends */
+
 
 }
 
