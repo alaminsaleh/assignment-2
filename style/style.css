@@ -34,6 +34,10 @@ body {
     display: flex;
 }
 
+.line-height{
+    line-height: 1.8;
+}
+
 /* shared styles ends here */
 
 /* check */
@@ -668,7 +672,7 @@ td {
 }
 
 .success-header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 400;
 }
 
